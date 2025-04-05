@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter | PD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="heading">Currency Converter</h1>
+    <form>
+      <label for="amount-input">Enter amount</label>
+      <input type="text" placeholder="100" required id="amount-input"><br>
+      <div class="flex" id="currency-selector">
+        <select name="from" id="from">
+          
+        </select>
+        <p>TO</p>
+        <select name="to" id="to">
+          
+        </select>
+      </div>
+      <button id="convert-button">Convert</button>
+
+      <!-- Result Section -->
+      <p id="result-message"></p>
+      <!-- Error Section -->
+      <p id="error-message"></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
